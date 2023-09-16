@@ -9,7 +9,7 @@ edition = "2021"
 name = "foo"
 
 [[bin]]
-name = "baz"
-path = "src/baz.rs"
+name = "bonk"
+path = "src/bonk.rs"
 
 [dependencies]
