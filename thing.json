@@ -1,0 +1,18 @@
+[
+  {
+    "name": "bar",
+    "src_path": "/Users/ericcrosson/workspace/scratch/demo-rust-workspace/crates/bar/src/main.rs"
+  },
+  {
+    "name": "baz",
+    "src_path": "/Users/ericcrosson/workspace/scratch/demo-rust-workspace/crates/bar/src/baz.rs"
+  },
+  {
+    "name": "foo",
+    "src_path": "/Users/ericcrosson/workspace/scratch/demo-rust-workspace/crates/foo/src/main.rs"
+  },
+  {
+    "name": "baz",
+    "src_path": "/Users/ericcrosson/workspace/scratch/demo-rust-workspace/crates/foo/src/baz.rs"
+  }
+]
