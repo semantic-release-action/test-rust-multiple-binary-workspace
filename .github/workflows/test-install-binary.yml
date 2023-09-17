@@ -10,8 +10,9 @@ jobs:
       - name: Install semantic-release-action/test-rust-multiple-binary-workspace/foo
         uses: EricCrosson/install-github-release-binary@beta
         with:
-          targets: semantic-release-action/test-rust-multiple-binary-workspace/foo@v1
-          targets: semantic-release-action/test-rust-multiple-binary-workspace/bar@v1
+          targets: |
+            semantic-release-action/test-rust-multiple-binary-workspace/foo@v1
+            semantic-release-action/test-rust-multiple-binary-workspace/bar@v1
 
       - run: which foo
       - run: foo
