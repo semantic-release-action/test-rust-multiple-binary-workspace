@@ -1,3 +1,3 @@
 fn main() {
-    println!("bar/baz");
+    println!("Hello world! This is baz");
 }

@@ -1,0 +1,17 @@
+---
+name: Test install-github-release-binary
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install semantic-release-action/test-rust-multiple-binary-workspace/foo
+        uses: EricCrosson/install-github-release-binary@v2
+        with:
+          targets: semantic-release-action/test-rust-multiple-binary-workspace/foo@v1
+
+      - run: which foo
+
+      - run: foo
